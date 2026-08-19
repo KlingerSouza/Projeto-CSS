@@ -131,6 +131,7 @@ body {
     background: var(--lime);
     box-shadow: 0 4px 2px rgb(0 0 0 / 25%);
     color: #000;
+    font-family: inherit;
     font-size: 28px;
     font-weight: 700;
     line-height: 1;
@@ -238,6 +239,10 @@ body {
     .mobile-menu nav a:hover,
     .mobile-menu nav a:focus-visible {
         background: #f1efff;
+        color: var(--purple);
+    }
+
+    .mobile-menu nav a[aria-current="page"] {
         color: var(--purple);
     }
 
